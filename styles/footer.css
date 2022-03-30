@@ -1,0 +1,19 @@
+.footer {
+  margin-top: 10%;
+}
+.footer-link {
+  background-color: #7b61ff;
+  color: #fff;
+  width: 100%;
+  padding: 4%;
+  text-align: center;
+}
+.footer-link p {
+  line-height: 30px;
+}
+.social-icon {
+  width: 25px;
+  margin-left: 10px;
+  margin-top: 0px;
+  color: #ffffff;
+}

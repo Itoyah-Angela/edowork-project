@@ -1,0 +1,169 @@
+@import "header.css";
+@import "footer.css";
+@import "button.css";
+
+* {
+  font-family: "Inter", Poppins;
+}
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
+.hero-section {
+  margin: 6% 0 12% 0;
+  border-radius: 6px;
+}
+.hero-img {
+  width: 100%;
+  height: 500px;
+}
+.hero-img img {
+  width: 100%;
+  height: 100%;
+}
+.hero-content h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.container {
+  padding: 0 8%;
+}
+.about-us {
+  display: flex;
+  /* flex: 1; */
+  margin-bottom: 10%;
+}
+.about-img {
+  flex: 1;
+}
+.about-img img {
+  width: 100%;
+}
+.about-text {
+  margin: 0 2%;
+  flex: 1;
+}
+.about-text p {
+  line-height: 30px;
+  font-size: 16px;
+}
+.blog-section {
+  margin: 5% 0;
+}
+.about-text h2 {
+  font-size: 45px;
+  font-weight: 600;
+}
+.row {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 2% 0;
+}
+.blog-section h2 {
+  text-align: center;
+  font-size: 45px;
+  font-weight: 600;
+  margin: 0;
+}
+.card1 {
+  background-color: #fafafa;
+  padding: 5%;
+  margin: 0 3%;
+  border-radius: 6px;
+}
+.card1 img {
+  margin-bottom: 5%;
+  width: 100%;
+}
+.card1 h5 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0;
+}
+.card1 p {
+  font-weight: 400;
+  line-height: 25px;
+  font-size: 16px;
+}
+.contact-us {
+  margin: 8% 0;
+  background-color: #eee;
+  background-size: cover;
+  padding: 4%;
+  color: #282828;
+  border-radius: 6px;
+}
+.contact-us h2 {
+  font-size: 38px;
+  font-weight: 500;
+  margin: 2%;
+}
+.contact-us p {
+  font-size: 20px;
+}
+.contact-group {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/* BLOG PAGE */
+.author {
+  margin: 6% 0 6% 0;
+}
+.author-info {
+  display: flex;
+}
+.author-img {
+  flex: 1;
+  margin-right: 2%;
+}
+.author-img img {
+  width: 100%;
+  height: 100px;
+  border-radius: 300px;
+}
+.author-name {
+  flex: 7;
+}
+.first-blog-text h3 {
+  font-size: 30px;
+  font-weight: 400;
+}
+.first-blog-text p {
+  line-height: 30px;
+}
+.list {
+  padding: 0 2%;
+}
+
+@media only screen and (max-width: 900px) {
+  .row {
+    padding: 2% 0;
+    display: block;
+  }
+  .card1 {
+    background-color: #fafafa;
+    padding: 2%;
+    margin: 6% 1%;
+    border-radius: 6px;
+  }
+  .about-us {
+    display: block;
+    margin-bottom: 10%;
+  }
+  .about-img {
+    flex: 1;
+  }
+  .about-img img {
+    width: 100%;
+  }
+  .about-text {
+    margin: 0 2%;
+    flex: 1;
+  }
+  .contact-group {
+    text-align: center;
+    display: inline-block;
+  }
+}
